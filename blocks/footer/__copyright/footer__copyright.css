@@ -1,0 +1,18 @@
+.footer__copyright {
+  align-self: flex-end;
+  text-align: right;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #FFFFFF;
+}
+
+@media (max-width: 320px) {
+  .footer__copyright {
+    align-self: flex-start;
+    text-align: left;
+    line-height: 1;
+  }
+}
