@@ -23,7 +23,7 @@
 
 @media (max-width: 650px) {
   .footer__items {
-    flex-direction: column;;
+    flex-direction: column;
   }
 }
 
