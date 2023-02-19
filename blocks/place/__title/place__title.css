@@ -22,6 +22,11 @@
   }
 }
 
+@media (max-width: 420px) {
+  .place__title {
+    font-size: 35px;
+  }
+}
 @media (max-width: 320px) {
   .place__title {
     font-size: 32px;

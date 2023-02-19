@@ -9,6 +9,18 @@
   z-index: 2;
 }
 
+@media (max-width: 516px) {
+  .cover__title {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 420px) {
+  .cover__title {
+    font-size: 45px;
+  }
+}
+
 @media (max-width: 320px) {
   .cover__title {
     font-size: 32px;

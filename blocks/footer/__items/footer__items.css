@@ -5,11 +5,13 @@
   padding-bottom: 24px;
   width: 1184px;
   max-width: 100%;
+
 }
 
 @media (max-width: 1024px) {
   .footer__items {
     width: 928px;
+    padding-top: 88px;
   }
 }
 
@@ -19,12 +21,16 @@
   }
 }
 
+@media (max-width: 650px) {
+  .footer__items {
+    flex-direction: column;;
+  }
+}
+
 @media (max-width: 320px) {
   .footer__items {
-    padding-top: 88px;
-    padding-left: 16px;
+    padding-top: 64px;
     width: 186px;
-    height: 310px;
     flex-direction: column;
   }
 }

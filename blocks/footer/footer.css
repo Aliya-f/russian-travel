@@ -1,6 +1,7 @@
 .footer {
   display: flex;
   justify-content: center;
+  max-width: 1184px;
 }
 
 @media (max-width: 320px) {
