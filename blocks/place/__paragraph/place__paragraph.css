@@ -10,7 +10,7 @@
   margin-top: 26px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 880px) {
   .place__paragraph {
     font-size: 16px;
   }
@@ -19,5 +19,11 @@
 @media (max-width: 475px) {
   .place__paragraph {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 420px) {
+  .place__paragraph {
+    font-size: 16px;
   }
 }

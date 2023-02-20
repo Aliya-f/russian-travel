@@ -4,6 +4,13 @@
   padding: 0 148px;
 }
 
+@media (max-width: 1130px) {
+  .content__places {
+    max-width: 928px;
+    padding: 0 100px;
+  }
+}
+
 @media (max-width: 1024px) {
   .content__places {
     max-width: 928px;
